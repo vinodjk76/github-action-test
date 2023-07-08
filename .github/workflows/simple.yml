@@ -15,7 +15,6 @@ jobs:
         - name: python command
           run: |
             import platform
-            print 
-            (plotform.processor())
+            print (plotform.processor())
           shell: python
 
